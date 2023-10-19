@@ -1,0 +1,84 @@
+C:\Users\jackc\AppData\Local\Google\AndroidStudio2022.1\device-explorer\Pixel_XL_API_33 [emulator-5554]\data\data\com.countdownplus.countdownplus\databases
+v1:
+    Landing Screen:
+        ✔ when there are no event show widget how to create a new event @done(23-05-25 12:21)
+        
+        countdown_card:
+            title:
+                ✔ check to see if the title take up to much space @done(23-06-18 12:02)
+
+            bottom_sheet:
+                ✔ when clicked on show a bottom sheet @done(23-06-08 03:58)
+                ✔ more info @done(23-07-07 11:40)
+                ✔ update events @done(23-06-17 13:32)
+                delete event:
+                    ✔ show meassage asking user if they are sure @done(23-06-08 08:38)
+                    ✔ yes  - delete event @done(23-06-08 08:38)
+                    ✔ no   - close popup @done(23-06-08 08:38)
+
+            show event data:
+                ✔ show title @done(23-06-04 04:58)
+                ✔ show countdown timer @done(23-06-04 06:37)
+                ✔ show event date @done(23-06-04 04:58)
+
+            countdown timer:
+                ✔ check to see if date is less then starting date -> show countdown timer @done(23-06-17 13:31)
+                ✔ check to see if date is more then starting date and less then end date -> show in progress @done(23-07-14 13:01)
+                ✔ check to see if date is more then end date -> event had ended @done(23-06-17 13:31)
+
+    create/update screen:
+        ✔ check to see if an event has been passed in @done(23-06-14 09:35)
+        create/updating events:
+            ✔ check to see if event date is correct @done(23-07-15 15:33)
+            ✔ - name cannot be null or empty @done(23-07-15 15:33)
+            ✔ if the event has been created or updated then go back to the landing screen @done(23-07-10 10:14)
+            ✔ check to see if button should be on create or edit @done(23-07-09 07:18)
+            
+        if event has been passed:
+            ✔ get event from database @done(23-07-01 23:30)
+            ✔ load data @done(23-07-01 23:30)
+        else:
+            ✔ leave event data blank @done(23-07-15 15:22)
+
+        color picker:
+            ✔ show a bottom sheet @done(23-05-31 01:14)
+            ✔ show what color has been selected @done(23-06-07 16:32)
+            ✔ create colors @done(23-05-31 01:14)
+        
+        date time picler:
+            ✔ the starting value cannot be less then the current date @done(23-05-27 03:11)
+            if date is vaild:
+                ✔ update the date @done(23-05-27 03:11)
+            else:
+                ✔ show error message @done(23-05-27 03:12)
+    settings screen:
+        ✔ add button to delete all event @done(23-06-18 12:56)
+
+    error screen:
+        ✔ make error message center - i have all ready writen the code in landing screen so make it a widget @done(23-06-26 18:54)
+
+
+        
+    popups:
+        ✔ delete a single event @done(23-06-26 18:55)
+        ✔ delete all events @done(23-06-26 19:03)
+
+
+    notification service:
+        ✔ create notification @done(23-06-26 18:50)
+
+
+    header:
+        ✔ check to see if back arrow should be showing @done(23-06-25 15:14)
+        ✔ must pass a title @done(23-06-25 15:14)
+        ✔ check to see if icon button are passed down @done(23-06-25 15:14)
+        ✔ fix title over flow @done(23-06-26 18:50)
+
+    todos:
+        ☐ create a serivce worker for handling noifications
+        ✔ add notification on/off @done(23-07-01 23:31)
+        ✔ update logo @done(23-07-15 12:58)
+
+    database:
+        ✔ when getting events sort by starting date @done(23-07-15 15:43)
+
